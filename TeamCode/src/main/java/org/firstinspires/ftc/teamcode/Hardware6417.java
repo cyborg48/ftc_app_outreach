@@ -102,7 +102,7 @@ public class Hardware6417
         backLeft.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         backRight.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         turnTable.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
-        wormGear.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        wormGear.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
     }
 }
